@@ -93,6 +93,7 @@ public class TankDrive extends OpMode
     }
 
     //Controls Arm to prevent colliding with ground
+    /*
     public void collisionAvoidance(double goal){
         double totalArmHeight = RobotMap.ELEVATOR_ENCODER_CONSTANT * elevator.getEncoder() + RobotMap.ELEVATOR_MIN_HEIGHT;
         if(RobotMap.ARM_LENGTH * Math.cos(RobotMap.ARM_ENCODER_CONSTANT * goal) >= totalArmHeight - RobotMap.ARM_GROUND_CLEARANCE){
@@ -100,6 +101,7 @@ public class TankDrive extends OpMode
             arm.setAutonGoal(armEncoderValue);
         }
     }
+    */
 
 
     /*
